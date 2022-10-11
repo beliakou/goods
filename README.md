@@ -148,3 +148,8 @@ create one:
 
 #### JQ
 `curl 192.168.8.108:9001/processing-service/actuator/env | jq -C '.propertySources[] | select(.name=="systemProperties") | .properties."emailing.hostnames.USER"'`
+
+#### Cut
+
+Split line by ' ' and take second part:  
+`cut --delimiter=' ' -f2` 
