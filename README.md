@@ -153,3 +153,7 @@ create one:
 
 Split line by ' ' and take second part:  
 `cut --delimiter=' ' -f2` 
+
+#### Write to file with sudo
+
+`echo 1000 | sudo tee brightness`
