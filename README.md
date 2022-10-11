@@ -132,6 +132,11 @@ create one:
 `git log --full-history -- src/main/java/com/test/Class.java`
 
 
+## Pacman 
+
+Remove all cached packages:  
+`sudo pacman -Sc`
+
 ## Shell/misc
 
 #### nc - listen on port
