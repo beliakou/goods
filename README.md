@@ -162,3 +162,22 @@ Split line by ' ' and take second part:
 #### Write to file with sudo
 
 `echo 1000 | sudo tee brightness`
+
+#### Create files
+
+`touch foo/bar{a..j}`
+
+#### Output to temporary file
+
+`cat <(ls)`  
+`cat <(ls) <(ls ..)`  
+`diff <(ls foo) <(ls bar)`
+
+#### Find and execute
+
+`find . -name "*.tmp" -exec rm {} \;`
+
+#### History
+
+Full history:  
+`history 1`
