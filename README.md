@@ -173,9 +173,16 @@ Split line by ' ' and take second part:
 `cat <(ls) <(ls ..)`  
 `diff <(ls foo) <(ls bar)`
 
-#### Find and execute
+#### Find
 
+Find and execute:  
 `find . -name "*.tmp" -exec rm {} \;`
+
+Find by path:  
+`find . -path "*/test/*.py"`
+
+Case insensitive search:  
+`find . -iname "test"`
 
 #### History
 
