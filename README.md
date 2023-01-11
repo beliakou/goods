@@ -188,3 +188,10 @@ Case insensitive search:
 
 Full history:  
 `history 1`
+
+#### ZSH - mv all except one
+
+```sh
+setopt extended_glob
+mv source_dir/^file5 target_dir
+```
