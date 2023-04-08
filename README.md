@@ -92,6 +92,9 @@ or
 #### check Docker disk usage
 `sudo docker system df --verbose`
 
+#### Enable TCP port 2375
+Add `{"hosts": ["tcp://0.0.0.0:2375", "unix:///var/run/docker.sock"], ...}` to `/etc/docker/daemon.json`
+
 ## Git
 
 #### Set origin
