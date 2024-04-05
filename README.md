@@ -134,6 +134,11 @@ create one:
 #### Show history for file
 `git log --full-history -- src/main/java/com/test/Class.java`
 
+#### Use different ssh key
+clone repo:
+`git -c core.sshCommand="ssh -i private_key_file" clone host:repo.git`
+save configuration for repo:
+`git config core.sshCommand "ssh -i private_key_file"`
 
 ## Pacman 
 
